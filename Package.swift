@@ -3,12 +3,12 @@ import PackageDescription
 
 let package = Package(
     name: "PhotoSlider",
-    platforms: [.iOS(.v13)],
+    platforms: [.iOS(.v11)],
     products: [
         .library(name: "PhotoSlider", targets: ["PhotoSlider"])
     ],
     dependencies: [
-        .package(url: "git@github.com:onevcat/Kingfisher.git", from: "7.1.2")
+        .package(url: "git@github.com:onevcat/Kingfisher.git", from: "6.3.1")
     ],
     targets: [
         .target(
